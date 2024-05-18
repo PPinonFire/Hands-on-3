@@ -1,0 +1,22 @@
+
+echo "Creando Archivo my text y agregando la cadena de Hola Mundo"
+echo "Hola Mundo" > mytext
+
+echo "Contenido de mytext:"
+cat mytext
+
+echo "Creando el directorio backup:"
+mkdir backup
+
+echo "Moviendo mytext al directorio backup:"
+
+mv mytext backup/
+
+echo "Contenido del directorio backup:"
+ls backup
+
+echo "Eliminando mytext del directorio backup:"
+rm backup/mytext
+
+echo "Eliminando el directorio backup:"
+rmdir backup

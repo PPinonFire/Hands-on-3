@@ -1,0 +1,19 @@
+
+
+echo "Hello World"
+
+
+echo "Listando de la carpeta actual:"
+ls
+
+
+echo "Creando el directorio Test:"
+mkdir Test
+
+
+echo "Entrando a la carpeta Test:"
+cd Test
+
+
+echo "Listando el contenido de la carpeta Test:"
+ls
